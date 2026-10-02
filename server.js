@@ -28,6 +28,6 @@ app.use('/api/image',imageRoutes)
 
 
 
-app.listen(PORT,()=>{
-    console.log(`Server is listening on PORT ${PORT}`)
-})
+app.listen(PORT, "0.0.0.0", () => {
+    console.log(`Server is listening on PORT ${PORT}`);
+});
